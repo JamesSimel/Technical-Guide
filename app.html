@@ -1,0 +1,282 @@
+<!DOCTYPE hmtl >
+<html lang="en">
+    <head>
+        <title>Get Started - Python</title>
+        <link rel="stylesheet" href="guide.css">
+        <script src="https://use.fontawesome.com/24cf75c541.js"></script>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.png" type="image">
+    </head>
+    <body>
+        <div class="start">
+            <h1>Get started with python</h1>
+            <h2>NB: This is <b style="color: black;">NOT</b> a course. It is just a simple guide and it is not detailed.</h2>
+        </div>
+        <!-- Introduction TO Python -->
+        <button type="button" class="collapsible" >Introduction To Python</button>
+        <div class="content">
+            <p>
+                Hello,In this guide I will show you how to get started with Python. Do you want to build an AI,
+                a website,be an expert in Data Science or anything else in the tech industry?
+                Python is here to help achieve that.
+            </p>
+            <p>Python is <b>easy</b> ,<b>accessible and flexible</b>, that is why it's very popular among many companies like
+                NETFLIX, NASA, Google and many others.
+                Python is easy in the aspect that it prioritizes readability, making it 
+                easy and easy to understand and use.
+                It is flexible since it can be used in almost evevrything e.g., Building website, cybersecurity, 
+                Artificial intelligence, building android apps. You can imagine how the list is long.
+            </p>
+            <p>Python Is a widely-used, interpreted, object-oriented  and high-level language that was created in 1991 
+                by <a href="https://en.m.wikipedia.org/wiki/Guido_van_Rossum" target="_blank">Guido van Rosum</a>
+            </p>
+            <u><h1>Prerequisite</h1></u>
+            <p>
+                <ol>Install the latest version of Python which 3+,I will be using 3.10</ol>
+                <ol>Install a text a editor like Visual Studio Code or you can use the default IDLE that comes with Python. VS code is easier to use</ol>
+            </p>
+            <h1>Hello World</h1>
+            <p>Let us now write our first Hello World program</p>
+            <p>Using VS Code, create a file and name it hello.py or any name of your liking. 
+                Inside the file with the file extension of .py write the following line of code
+            </p>
+            <div style="background-color: rgb(150, 131, 131); border-radius: 4px; padding:30px 5px;">
+                <p>print("Hello, World!!")</p>
+            </div>
+            <div>
+                <p>Now open the terminal and on the working directory which the hello.py is under do the following:</p>
+                <div style="background-color: rgb(190, 176, 159); padding: 25px 5px;">
+                    PS C:\Users\HP\Documents\projects\python> python hello.py
+                    <p>Hello,World!!</p> 
+                </div>
+            </div>
+            <p style="color: green;"><b>Congratulations!! You have written you first python program</b></p>
+            <p>You can also run python code just on the terminal.Ofcoure when python is installed</p>
+            <p>
+                You simply type the word python on the terminal and you exit the new python terminal by typing exit().
+            </p>
+            <h3>Python Types</h3>
+            <p >Python as a language has a data types are used which include:
+                <ul>--strings e.g., "Hello Programmer"</ul>
+                <ul>--integers e.g., whole numbers like 5,68</ul>
+                <ul>--floats e.g., 5.5</ul>
+                <ul>--boolean e.g., True or False</ul>
+            <p style="margin-bottom: 5%;">I would like to find more types..</p>
+        </div>
+
+
+        <!-- Strings -->
+        <button type="button" class="collapsible">Strings</button>
+        <div class="content">
+            <p>
+                <h3>Strings In Python</h3>
+                <p>
+                    String in python is any character that is wrapper in between single quotes '' or double quotes "".
+                    So using any of these will not affect anything
+                </p>
+                <p>In our first program we used used a string "hello, world"</p>
+                <p>
+                    If you need to include an apostrophe in you sentence you can do it by escaping <b>backslash \</b> 
+                    before character that you need to include.
+                </p> 
+                <div>
+                    <p>See the example below:</p>
+                    <p>print("I\'m a webdeveloper.")</p>
+                    <p>This will print <i><b>I'm a webdeveloper.</b></i> only</p>
+                </div>
+                <h4>Newlines</h4>
+                <p>It will be very hard to read texts if we had all of them in one single line</p>
+                <p>we create new lines by using <b style="background-color: bisque; color:red" padding: 3px 3px;>\n</b></p>
+                <p>we use <b style="background-color: bisque; color:red" padding: 3px 3px;>\t</b> to represent tabs</p>
+                <p>It can be a lot pain if we are dealing with a large string and we try creating new line with <b>\n</b>.There is a way to do multiple line using three quotes</p>
+                <p>print(""" This is<p>a muliplte </p> line Text""")</p>
+                <p>Three lines will be printed</p>
+                <h4>Concatenation</h4>
+                <p>Math in python uses not only numbers but also strings using an alien called <b><i>Concatenation</i></b>. See the example below</p>
+                <p>
+                    print("Ethial" + "Hacking" + Python)
+                    <p>It also works with numbers!!</p>
+                    <p>Strings containing numbers are added as strings instead of integers.</p>
+                    <p>print("56+"6)</p>
+                    <p style="padding-left: 5px; border-left:3px solid red; border-color: red;">NOTE:Don't try adding a string to a  number.</p>
+                    <p>Though we can add strings to numbers, we can multiply by them.</p>
+                    <p>print(3 * "7")</p>
+                    <p>This will print 777</p>
+                </p>
+            </p>
+        </div>
+
+        <!-- Varibales -->
+        <button type="button" class="collapsible">Variables</button>
+        <div class="content">
+            <p>
+                <h3>Python Varibles</h3>
+                <p>Varibles are "container" that allow us to store values by assigning them names, the name can be used to refer to the value later on the program.</p>
+                <p>For example , In Data science, you can use a varibale to store for examples number of people in a company.</p>
+                <p>Let us assign a string <b>"Ethical hacking"</b> to a varible called <b>course</b> </p>
+                <p>courese = "Ethical hacking"</p>
+                <p>Note that to assign a varible we use <b>one equal sign</b></p>
+                <h4>Rules of varibles</h4>
+                <p>It is pretty straight forward how to write variables: using letter, number or underscore.
+                    But you cannot start with a special character/sympol or a number
+                </p>
+                <p>Python is a case-sensitive language therefore, <b>Lastname</b> is different from <b>lastnames</b></p>
+                <h4>Cases of writing varibles:</h4>
+                <h5>Snake Case</h5>
+                <p>Each word is separated by underscore character.We write varibles as follows:</p>
+                <p>first<u>_</u>name = "Marco"</p>
+                <h5>Camel Case</h5>
+                <p>Each word, except the first, starts with a capital letter</p>
+                <p>myFirstName = <b style="color:red;">"Doe"</b> </p>
+                <h5>Pascal Case</h5>
+                <p>Each word starts with  a capital letter</p>
+                <p >MyFirstName = <b style="color:red;">"Doe"</b></p>
+                <p style="margin-bottom: 5%;">Please read on how varibles casting and how they can receive user's input</p>
+            </p>
+        </div>
+
+        <!-- Functions-->
+        <button type="button" class="collapsible">Functions</button>
+        <div class="content">
+            <p>
+                <p>A function is a block of code which which only runs when it is called</p>
+                <p>We can pass date know as paramaters into function</p>
+                <p>A function returns data as a result</p>
+                <h3>Creating a Function</h3>
+                <p>In python a function is defined using the <b style="color: red;">def</b> keyword</p>
+                <h3>Calling a Function</h3>
+                <p>Use the name of the function followed by parenthesis:</p> 
+                <div style="background-color: white; border-left: 4px solid green; padding: 5px;">
+                    def myFunction():
+                    <p style="padding-left: 5px;">print( <b style="color: red;">"Hello from a function"</b> )</p>
+                </div>
+                <h3>Arguments</h3>
+                <p>Information can be passed into functions as Arguments</p>
+                <p>
+                    Argumentsare specified after the function name, inside the parenthesis. You can add as many
+                    arguments as you want,just separate them with a comma
+                </p>
+                <p>
+                    The following example has a function with one argument <b>name</b>. When the function is 
+                    called,we pass along a firstname , which is used inside the function to print the full name:
+                </p>
+                <div style="background-color: white; border-left: 4px solid green; padding: 5px;">
+                    def myFunction(<b>name</b>):
+                    <p style="padding-left: 5px;">print( <b >name</b> + "Refsnes")</p>
+                    <p>myFunction(<b style="color: red;">"Max"</b>)</p>
+                    <p >myFunction(<b style="color: red;">"Simel"</b>) </p>
+                </div>
+                <p>I have not written everything about Functions because I just wanted to give you an overview of python
+                    Programming language
+                </p>
+            </p>
+        </div>
+
+        <!-- Lists -->
+        <button type="button" class="collapsible">Lists</button>
+        <div class="content">
+            <p style="line-height: 2;">Lists are in-built data types in Python. They are used to store multiple elements which are ordered and each element correspond to an index.
+                Lists are mutable(changeable).
+                Lists are created with square brackets []. Look at the example below:
+                
+                <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                    <p>#List can be empty</p>
+                    <p>letters = []</p>
+                    <p>#List with items</p>
+                    <p>myList = [“john”, “Allan”, “Ian”]</p>
+                </div>
+                <p>As we said earlier that ach element correspond to an index, therefore we can access each element with an index like</p>
+                <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                    myList = [“john”, “Allan”, “Ian”]
+                    <p>print(myList[1])</p>
+                </div>
+                <p>You can run the code and confirm with me that the second element “Allan” will be printed. The first element in the list has an index of 0(zero).</p>
+                <p><b>Operations that we can perform on list:</b></p>
+                <p>We can use the in and not in python operators to check if an element part of the list. Look at the code below</p>
+                <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                   words = ['eggs', 'spam', 'sausage', 'beaf']
+                  <p>print('spam' in words)</p> 
+                  <p>print('tomato' in words)</p> 
+                </div>
+                
+                <p style="width: 50%; border-left: 5px solid red; padding-left: 5px; line-height: 35px; background: rgb(197, 171, 122); border-radius: 8px;">
+                    Note: The len() function can be used to return the number of elements in a list.</p>
+                <p><b>Looping through a list</b></p>
+                <p>You iterate through a list and check each element. I will use the for loop in our example</p>
+                <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                    #lists in python
+                    <p>cars = ["volvo", "Toyota", "Mazda"]</p>
+                    <p>for car in cars:</p>
+                    <p style="margin-left: 6px;">print(car)</p>
+                </div>
+                <p><b>Lists Functions</b> </p>
+                <p>Lists support the following functions:</p>
+                <h3>append()</h3>
+                <p>we use append() function to add an item to the end of the list. For example we can add “Benz” to the end of our cars by simply doing</p>
+                <p style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">cars.append("Benz")</p>
+                <h3>insert()</h3>
+                <p>This function is used to add an item to a list at a given index. Like insert(index, item).Note that the index comes first…</p>
+                <p style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                    cars.index(2,"V8")
+                    #this adds an item at the third position...
+                </p>
+                <p> When you add an item to a list with existing elements , the rest are pushed to the right.</p>
+                <h3>pop()</h3>
+                <p>pop() removes an item at a given index</p>
+                <p>for example using our cars list:</p>
+                <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                    cars = ["volvo", "Toyota", "Mazda"]
+                    <p>cars.pop(2)</p>
+                    <p>#this removes "Mazda" which is at index 2</p>
+                </div>
+                <div>
+                    <h3>remove()</h3>
+                    <p>remove() removes a specified item like in the example below</p> 
+                    <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                        cars = ["volvo", "Toyota", "Mazda"]
+                        <p>cars.remove("volvo")</p>
+                        
+                    </div> 
+                </div>
+                <h3>count()</h3>
+                <p>We can use this to returns a count of how many times an item occurs in the list. e.g., run the code below and share with me on the comments section how many times the term “python” occurs…</p>
+                <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                    languages = ["python", "JS", "Go", "python", "C++", "Java", "python"]
+                    print(languages.count("python"))
+                </div>
+                <p>Try running the code and understand how they work. Feel free to always share with me and ask questions</p>
+                <div style="border-radius: 4px; width: 80%; padding: 10px 10px;background-color: rgb(211, 182, 182); box-shadow: 2rem;">
+                    numbers = [2,4,6,8,20]
+                    <p>print(numbers.reverse())</p>
+                    <p>print(numbers.sort())</p>
+                    <p>print(min(numbers))</p>
+                    <p>print(max(numbers))</p>
+                </div>
+                <p>#Note that the sort() function sorts the list in ascending order by default but you can specify by using reverse=True to sort by descending</p>
+                <p>Note: The sort() and reverse() change the list they are called on…</p>
+                <p>~Please read on Lists comprehensions.</p>
+                <p>Thank you for reading</p>
+                <p>You follow me and subscribe for more articles on python are loading... You can’t afford to miss☺️</p>
+            </p>
+        </div>
+
+        <!-- Reference -->
+        <button type="button" class="collapsible">Reference</button>
+        <div class="content">
+            <p>
+                You can use <a href="https://docs.python.org/3/reference/" target="_blank">Reference</a>
+            </p>
+            <p style="color: green;">Happy Hacking!!</p>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <h2>Follow me on:</h2>
+            <a href="https://github.com/JamesSimel" target="_blank"><i class="fa fa-github" title="my-github-page"></i></a>
+            <a href="https://twitter.com/Simel89429356" target="_blank"><i class="fa fa-twitter-square" title="my-twitter-profile"></i></a>
+            <a href="https://instagram.com/c.o.d.e.c.o.l.l.e.g.e" target="_blank"><i class="fa fa-instagram" title="instagram-page"></i></a>
+            <p>Made with <i class="fa fa-heart" ></i></p>
+        </footer>
+        <script src="guide.js"></script>
+    </body>
+</html>
